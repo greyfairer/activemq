@@ -56,19 +56,10 @@
     </issueManagement>
     <distributionManagement>
         <repository>
-            <id>apache.releases.https</id>
-            <name>Apache Release Distribution Repository</name>
-            <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+            <id>bintray-greyfairer-maven</id>
+            <name>bintray-greyfairer-maven</name>
+            <url>https://api.bintray.com/maven/greyfairer/maven/activemq</url>
         </repository>
-        <snapshotRepository>
-            <id>apache.snapshots.https</id>
-            <name>Apache Development Snapshot Repository</name>
-            <url>https://repository.apache.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <site>
-            <id>activemq-website</id>
-            <url>scp://people.apache.org/x1/www/activemq.apache.org/maven/5.11.1/activemq-web</url>
-        </site>
     </distributionManagement>
     <properties>
         <activeio-version>3.1.4</activeio-version>
